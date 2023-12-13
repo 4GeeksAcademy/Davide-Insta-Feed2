@@ -16,6 +16,7 @@
     referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body class="bg-dark">
     <div class="container bg-white mx-auto">
         <nav class="navbar navbar-expand-lg d-flex bg-light">
@@ -24,18 +25,10 @@
                     <a class="fa-brands fa-instagram fs-5 me-1 text-dark text-decoration-none"></a>Instagram
                 </div>
                 <form class="d-flex">                    
-                    <button 
-                        type="button"
-                        class="btn btn-sm btn-success me-5" 
-                        data-bs-toggle="modal" 
-                        data-bs-target="#miModal">Create new profile
+                    <button type="button" class="btn btn-sm btn-success me-5" data-bs-toggle="modal" data-bs-target="#miModal">
+                        Create new profile
                     </button>
-                    <div 
-                        class="modal" 
-                        id="miModal" 
-                        tabindex="-1" 
-                        aria-labelledby="miModalLabel" 
-                        aria-hidden="true">
+                    <div class="modal" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -44,7 +37,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <p class="mb-1">Caption:</p>
-                                        <textarea type="text" class="form-control" rows="2" placeholder="Add the caption of your post here"></textarea>
+                                    <textarea type="text" class="form-control" rows="2" placeholder="Add the caption of your post here"></textarea>
                                     <div class="align-items-center pt-2 d-flex ">
                                         <a class="card justify-content-center align-items-center me-2 text-decoration-none" style="width: 35px; height: 30px;">
                                             <i class="fa-solid fa-camera fs-6 text-dark"></i>
@@ -74,69 +67,60 @@
                 </form>
             </div>
         </nav>
-            <div class="container d-flex justify-content-center mt-2">
-                <ul class="nav navbar-expand nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link btn-sm me-2 bg-white btn text-primary" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                            <i class="fa-solid fa-table-cells text-dark"></i>
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link btn-sm bg-white btn text-primary" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">
-                            <i class="fa-solid fa-square-full text-dark"></i>
-                        </button> 
-                    </li>
-                </ul>
-            </div>
-        
+        <div class="container d-flex justify-content-center mt-2">
+            <ul class="nav navbar-expand nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-sm me-2 bg-white btn text-primary" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                        <i class="fa-solid fa-table-cells text-dark"></i>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-sm bg-white btn text-primary" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">
+                        <i class="fa-solid fa-square-full text-dark"></i>
+                    </button> 
+                </li>
+            </ul>
+        </div>        
         <div class="tab-content" id="pills-tabContent">
-            <div 
-            class="tab-pane fade show active pb-1" 
-            id="pills-home" 
-            role="tabpanel" 
-            aria-labelledby="pills-home-tab" 
-            tabindex="0">
+            <div class="tab-pane fade show active pb-1" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                 <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
-                        <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
-                        <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>            
+                <div class="col-sm-12 col-md-8 col-xl-4 p-1">
+                    <img src="naturaleza.jpg" class="img-fluid">
                 </div>
-                    
-                <div class="row d-flex justify-content-center">
-                    <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
-                    <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
-                    <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-8 col-xl-4 p-1">
+                    <img src="naturaleza.jpg" class="img-fluid">
                 </div>
-                
+                <div class="col-sm-12 col-md-8 col-xl-4 p-1">
+                    <img src="naturaleza.jpg" class="img-fluid">
+                </div>            
+            </div>                    
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
+            </div>                
                 <div class="row d-flex justify-content-center">
                     <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
                     <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
                     <div class="col-sm-12 col-md-8 col-xl-4 p-1"><img src="naturaleza.jpg" class="img-fluid"></div>
                 </div>
             </div>
-
-            <div 
-            class="tab-pane fade" 
-            id="pills-profile" 
-            role="tabpanel" 
-            aria-labelledby="pills-profile-tab" 
-            tabindex="0">
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                 <div class="row d-flex justify-content-center">
                     <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4 p-0 border border-light-emphasis justify-content-center">                            
                         <div class="d-flex justify-content-between align-items-center p-1">
                             <h4 class="m-0">Header</h4>
                             <p class="m-0">15/30</p>
-                        </div>
+                        </div>                        
                         <div>
                             <img src="naturaleza.jpg" class="img-fluid">                        
-                        </div>
+                        </div>                        
                         <div class="p-1">
                             <p class="fs-6 mb-0"><b>Likes</b></p>
                             <p class="lh-1">Header Foot</p>
                         </div>
                     </div>
-                </div>   
-
+                </div> 
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4 p-0 border border-light-emphasis my-3 justify-content-center">
                         <div class="d-flex justify-content-between align-items-center p-1">
@@ -151,8 +135,7 @@
                             <p class="lh-1">Header Foot</p> 
                         </div>
                     </div>
-                </div>
-                
+                </div>                
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4 p-0 border border-light-emphasis justify-content-center">
                         <div class="d-flex justify-content-between align-items-center p-1">
